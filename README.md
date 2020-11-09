@@ -1,6 +1,17 @@
 Charisma Prasetya Putera Ammal
 185150700111019
 
+Penjelasan Modul 5
+1. Instalasi projek lumen
+2. Membuat database di phpmyadmin dengan nama bookapp_lumen
+3. Membuka file .env dan menyesuaikan dengan environment yang ada
+4. Mengaktifkan fitur Facades dan Eloquent di file app.php
+5. Membuat migration kemudian menambahkan function up
+6. Membuat seeder di file DatabaseSeeder.php kemudian menambahkan function run
+7. Membuat model Book pada direktori app\Models dengan mendefinisikan atribut tabel
+8. Membuat file BooksController.php lalu menambahkan function index untuk menampilkan semua data buku
+9. Menambahkan function getBookbyId untuk menampilkan id buku yang kita cari. Jika id yang kita cari ada makan akan menampilkan message "success" dan menampilkan data buku dan jika id yang kita cari tidak ada akan menampilkan message "Book not found" dengan code 404
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
