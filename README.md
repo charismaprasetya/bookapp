@@ -11,6 +11,10 @@ Penjelasan Modul 5
 7. Membuat model Book pada direktori app\Models dengan mendefinisikan atribut tabel
 8. Membuat file BooksController.php lalu menambahkan function index untuk menampilkan semua data buku
 9. Menambahkan function getBookbyId untuk menampilkan id buku yang kita cari. Jika id yang kita cari ada makan akan menampilkan message "success" dan menampilkan data buku dan jika id yang kita cari tidak ada akan menampilkan message "Book not found" dengan code 404
+10. Membuat migration untuk author
+11. Menambahkan seeder untuk author
+12. Membuat model Author pada direktori app\Models
+13. Membuat file AuthorController.php 
 
 # Lumen PHP Framework
 
