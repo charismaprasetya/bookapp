@@ -29,6 +29,23 @@ class DatabaseSeeder extends Seeder
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now()
         ]);
+        DB::table('author')->insert([
+            'name' => 'Andrea Hirata',
+            'gender' => 'Female',
+            'biography' => 'Penulis terkenal di Indonesia yang pertama adalah Andrea Hirata. Penulis asal Bangka Belitung, yang lahir pada 24 Oktober 1976 ini, mulai dikenal berkat karya pertamanya yang berjudul Laskar Pelangi.',
+
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
+
+        DB::table('author')->insert([
+            'name' => 'Pidi Baiq',
+            'gender' => 'Female',
+            'biography' => 'Banyak menghasilkan karya tulis tentang percintaan, Pidi Baiq juga masuk sebagai penulis terkenal di Indonesia, yang karyanya juga berhasil difilmkan.',
+
+            'created_at' => Carbon::now(),
+            'updated_at' => Carbon::now()
+        ]);
 
     }
 }
